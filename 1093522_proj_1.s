@@ -29,8 +29,7 @@ main:
     sw      ra,28(sp)
     sw      s0,24(sp)
     addi    s0,sp,32
-    mv      a5, t3
-    sw      a5,-20(s0)
+    sw      t3,-20(s0)
     lw      t4,-20(s0)
     call    F
     sw      t4,-24(s0)
@@ -135,8 +134,3 @@ finish:
     #end program with 0
     li a0, 10
     ecall
-
-    
-
-
-          
