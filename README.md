@@ -86,6 +86,7 @@ RISC-V - main:
     	jr      ra
 
 RISC-V - finish:
+
 	finish:
     	#print output
     	li a0, 4
